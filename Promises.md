@@ -2,15 +2,15 @@
 
 Promise libraries such as q and bluebird
 
-## Two concepts for promises
+### Two concepts for promises
 * Deferred Object - interface for the progress bar
 * Promise Object - progress bar
 
-## Deferred object
+### Deferred object
 * The deferred object has a property on it called promise.
 * The promise property has two properties -> 1) status (default: pending) 2) value (default: undefined)
 
-## Promised object
+### Promised object
 * It's kinda like a progress bar. The task has not finished yet but you want to write logic around the object.
 * How to see the promise object in chrome console: 
 
